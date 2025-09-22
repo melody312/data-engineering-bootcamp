@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# Spark / Checkpoints
+spark-warehouse/
+derby.log
+*_checkpoints/
+
+# Data
+*.parquet
+*.avro
+*.csv
+/data/
+minio-data/
+pg-data/
+
+# VSCode
+.vscode/
